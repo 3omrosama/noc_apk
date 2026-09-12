@@ -1,0 +1,6 @@
+{
+  "name": "InfraManager Mobile",
+  "description": "Native Android & Tablet NOC companion for IT infrastructure monitoring, host management, VM actions, and real-time telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

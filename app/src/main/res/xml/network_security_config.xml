@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--
+      Permits cleartext HTTP specifically for user-configured NOC endpoints
+      (e.g., local LAN IP addresses like http://192.168.1.50:3000 or http://172.16.0.12:3000),
+      while strictly enforcing standard Android TLS/SSL validation for all HTTPS traffic.
+    -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

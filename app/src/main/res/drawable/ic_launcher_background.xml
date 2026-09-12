@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:color="#0B1120" android:offset="0.0" />
+                <item android:color="#131F37" android:offset="0.5" />
+                <item android:color="#0A0E1A" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Subtle NOC Grid overlay -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M18,18h72v72h-72z"
+        android:strokeWidth="0.75"
+        android:strokeColor="#1E2E4A" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M36,18v72 M54,18v72 M72,18v72 M18,36h72 M18,54h72 M18,72h72"
+        android:strokeWidth="0.5"
+        android:strokeColor="#152238" />
+</vector>
